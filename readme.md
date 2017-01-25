@@ -99,9 +99,9 @@ Example 2:
 Result and explanation here:
 
 
-    A - B - C - D (master) - E (master)
-         \                  /
-          X    -    Y (work)
+    A - B - C - D - E (master)
+         \         / 
+          X   -   Y (work)
 
 Merge-Commit
 
@@ -120,9 +120,9 @@ Example 3:
 
 Result and explanation here:
 
-    A - B - C - D (master)   -    E (master)
-         \             \         /
-          X - Y (work) - Z (work)
+    A - B - C - D     -    E (master)
+         \                /      
+	  X - Y (work) - Z (work)
 
 Merge conflict
 

@@ -115,6 +115,3 @@ Result and explanation here:
 
 Merge conflict
 
-
-
-Add you answers to the file readme.md!

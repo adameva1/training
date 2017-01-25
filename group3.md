@@ -2,7 +2,7 @@ Exercise:
 
 Explain the following commands with one sentence:
 
-    $ git diff : get the difference between two files
+    $ git diff : get the difference between two filesi 1
     $ git diff --staged : all changes that are not commited
     $ git diff test.txt : difference between two version of the file text.txt
     $ git diff --theirs : looks like what they changed

@@ -1,5 +1,5 @@
 Exercise:
-TEST
+TEST for Mohamed
 Explain the following commands with one sentence:
 
     $ git diff : get the difference between two filesi 1

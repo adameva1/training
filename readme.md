@@ -99,9 +99,9 @@ Example 2:
 Result and explanation here:
 
 
-    A - B - C - D (master) - E (master)
-         \                  /
-          X    -    Y (work)
+    A - B - C - D  - E (master, work)
+         \          /
+          X  -  Y
 
 Merge-Commit
 

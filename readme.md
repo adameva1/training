@@ -79,12 +79,12 @@ Example 1:
 
 Result and explanation here:
 
-
-
-    A - B (master) - D (master)    
-         \          /
-          C (work)
-
+    
+    
+    A - B - C
+            (master)
+            (work)
+      
 Fast forward merge
 
 Example 2:

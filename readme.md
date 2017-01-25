@@ -28,8 +28,7 @@ and place your solution in a fitting category in this file. It's best to create 
     $ git commit                     #commits all the modifications from the staging area & prompts for a message to add to the log
     $ git commit -a                  #essentially a "git add -u" + "git commit"  NOTE: new files are not included!
     $ git commit -m "My message"     #commits all the modifications from the staging area & adds the message to the log instead of prompting
-
-
+ 
 ## Inspecting the repository and history
 
 ... put commands and explanation here

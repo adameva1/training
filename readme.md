@@ -120,9 +120,9 @@ Example 3:
 
 Result and explanation here:
 
-    A - B - C - D     -    E (master)
-         \                /      
-	  X - Y (work) - Z (work)
+    A - B - C - D - E (master, work)
+         \         /
+	      X   -   Y
 
 Merge conflict
 

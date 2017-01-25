@@ -42,7 +42,7 @@ and place your solution in a fitting category in this file. It's best to create 
     $ git log --oneline --all --graph : get the log in a graph
     $ git log --oneline --all --graph --decorate : more beautiful
     $ git log --follow -p -- filename : show history of changes for one file
-    $ git log -S'static void Main' : initial status of the file
+    $ git log -S'static void Main' : search for commit with special text
     $ git log --pretty=format:"%h - %an, %ar : %s" : show the changes with hash and user name and time
 
 ## Managing branches

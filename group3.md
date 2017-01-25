@@ -1,7 +1,5 @@
 Exercise:
 <<<<<<< HEAD
-TEST from MZ
-=======
 TEST for Mohamed
 >>>>>>> 0d9bf2d6b3f0ffb548daad106320986afafbe430
 Explain the following commands with one sentence:

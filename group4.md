@@ -2,11 +2,11 @@ Exercise:
 
 Explain the following commands with one sentence:
 
-    $ git checkout work
-    $ git checkout master
-    $ git merge work
-    $ git merge --abort
-    $ git cat-file -p a3798b
+    $ git checkout work		Switch to work branch
+    $ git checkout master	Switch to master branch
+    $ git merge work		Joins work directory with master
+    $ git merge --abort		Aborts the merge during conflicts
+    $ git cat-file -p a3798b    Provide content or type and size information for repository objects
 
 Example:
 
@@ -19,12 +19,18 @@ Example 1:
 
     A - B (master)
          \
-          C (work)
+          C (work) 
     
     $ git checkout master
     $ git merge work
 
-Result and explanation here:
+
+Result and explanation here: Fast Forward
+
+    A - B 
+         \
+          C (work) (master)
+
 
 
 Example 2:
@@ -36,8 +42,12 @@ Example 2:
     $ git checkout master
     $ git merge work
 
-Result and explanation here:
+Result and explanation here: Merge or Conflict
 
+
+    A - B - C - D - E  (master)
+         \         /
+          X   -   Y (work)    
 
 
 Example 3:
@@ -53,6 +63,11 @@ Example 3:
 
 Result and explanation here:
 
+
+    A - B - C -  D 
+         \        \
+          X - Y  - Z (work)(master)
+    
 
 
 Add you answers to the file readme.md!

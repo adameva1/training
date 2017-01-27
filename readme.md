@@ -20,14 +20,14 @@ and place your solution in a fitting category in this file. It is best to create
 
 ## Staging and committing
 
-    $ git add test.txt   Add file contents to the index
+    $ git add test.txt   Add file contents to the stage
 
     $ git add .         Adds content from all files under Documentation directory and its subdirectories
-    $ git add -u        Update the index just where it already has an entry matching <pathspec>. This removes as well as modifies
-                        index entries to match the working tree, but adds no new files
+    $ git add -u        Update the stage just where it already has an entry matching <pathspec>. This removes as well as modifies
+                        stage entries to match the working tree, but adds no new files
 
-    $ git add -A        Update the index not only where the working tree has a file matching <pathspec> but also where the
-                        index already has an entry. This adds, modifies, and removes index entries to match the working tree
+    $ git add -A        Update the stage not only where the working tree has a file matching <pathspec> but also where the
+                        stage already has an entry. This adds, modifies, and removes stage entries to match the working tree
 
 
     $ git commit        Record changes to the repository

@@ -2,10 +2,10 @@ Exercise:
 
 Explain the following commands with one sentence:
 
-    $ git checkout work		Switch to work branch
-    $ git checkout master	Switch to master branch
-    $ git merge work		Joins work directory with master
-    $ git merge --abort		Aborts the merge during conflicts
+    $ git checkout work         Switch to work branch
+    $ git checkout master       Switch to master branch
+    $ git merge work            Joins work directory with master
+    $ git merge --abort         Aborts the merge during conflicts
     $ git cat-file -p a3798b    Provide content or type and size information for repository objects
 
 Example:

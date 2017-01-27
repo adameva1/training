@@ -10,23 +10,54 @@ Read your group instruction in the text files
 
 [group4.md](group4.md)
 
-and place your solution in a fitting category in this file. It's best to create a branch while working on the exercise!
+and place your solution in a fitting category in this file. It is best to create a branch while working on the exercise!
 
 ## Creating repositories
 
-... put commands and explanation here
+    $ git init           Create an empty Git repository or reinitialize an existing one
+    $ git clone          Clone a repository into a new directory
+
 
 ## Staging and committing
 
-... put commands and explanation here
+    $ git add test.txt   Add file contents to the index
+
+    $ git add .         Adds content from all files under Documentation directory and its subdirectories
+    $ git add -u        Update the index just where it already has an entry matching <pathspec>. This removes as well as modifies
+                        index entries to match the working tree, but adds no new files
+
+    $ git add -A        Update the index not only where the working tree has a file matching <pathspec> but also where the
+                        index already has an entry. This adds, modifies, and removes index entries to match the working tree
+
+
+    $ git commit        Record changes to the repository
+    $ git commit -a     Tell the command to automatically stage files that have been modified and deleted, but new files you have not told
+                        Git about are not affected.
+    $ git commit -m "My message"
+                        Use the given <msg> as the commit message. If multiple -m options are given, their values are concatenate as separate paragraphs.
+
+    $ git reset HEAD test.txt  Reset current HEAD to the specified state
+    $ git diff --staged This form is to view the changes you staged for the next commit relative to the named <commit>.
 
 ## Inspecting the repository and history
 
-... put commands and explanation here
+    $ git status         Shows the current state of the repository
+    $ git diff										Show changes between commits, commit and working tree
+    $ git diff --staged								Shows all staged changes
+    $ git diff test.txt								Shows the changes on the given file between the local version and the commited version
+    $ git diff --theirs								In case of conflict shows the other people changes
+    $ git diff --ours								In case of conflict shows our changes
+    $ git log										Shows the history of all commits of this branch
+    $ git log --oneline								Shows the history of all commits of this branch using one line for each commit
+    $ git log --oneline --all						Shows the history of all commits of all branches using one line for each commit
+    $ git log --oneline --all --graph				Shows the history of all commits of all branches using one line for each commit with additional visual info (graph)
+    $ git log --oneline --all --graph --decorate    Shows the history of all commits of all branches using one line for each commit with additional visual info (graph) and with branch name
+    $ git log --follow -p -- filename				Shows the complete history of a file including if filename changed	
+    $ git log -S'static void Main'					Search the full contents of the files for all history 
+    $ git log --pretty=format:"%h - %an, %ar : %s"  Shows the history showing the short hash, the author, the author date (relative to current date) and the commit comment
 
 ## Managing branches
 
-... put commands and explanation here
 
 ## Merging
 

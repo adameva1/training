@@ -81,9 +81,6 @@ Add you answers to the file readme.md!
     $ git merge --abort         Aborts the merge during conflicts
     $ git cat-file -p a3798b    Provide content or type and size information for repository objects
 
-Example:
-
-    $ git status         Shows the current state of the repository
 
 Here are some standard situations, and a git command. Draw the result, and add some explanation:
 

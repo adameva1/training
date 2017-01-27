@@ -18,6 +18,15 @@ and place your solution in a fitting category in this file. It's best to create 
 
 ## Staging and committing
 
+
+
+Add you answers to the file readme.md!
+## Inspecting the repository and history
+
+... put commands and explanation here
+
+## Managing branches
+
     $ git checkout master          Switch to master branch
     $ git branch feature1          Create a new branch feature1
     $ git checkout -b work         Create a new branch and switch to it
@@ -30,15 +39,6 @@ and place your solution in a fitting category in this file. It's best to create 
     $ git branch -d work           Delete only branches that are already merged
     $ git branch -D work           Delete branches and do not consider status 
 
-
-Add you answers to the file readme.md!
-## Inspecting the repository and history
-
-... put commands and explanation here
-
-## Managing branches
-
-... put commands and explanation here
 
 ## Merging
 
